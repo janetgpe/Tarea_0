@@ -9,7 +9,7 @@ from fastapi import FastAPI
 
 app=FastAPI()
 
-@app.get("/")
+@app.get("/tarea-0")
 def tarea_0_wrapper():
     return {"respuesta": "Primer tarea realizada"}
 

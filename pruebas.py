@@ -7,7 +7,7 @@
 import requests
 
 def tarea_0():
-    respuesta = requests.get("http://127.0.0.1:8000")
+    respuesta = requests.get("http://127.0.0.1:8000/tarea-0")
     print(respuesta.text)
    
 
